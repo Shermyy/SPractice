@@ -1,0 +1,32 @@
+
+
+           Console.Write("Username: ");
+           string Username = Console.ReadLine();
+           Console.Write("Password: ");
+           string Password = Console.ReadLine();
+           
+           bool Pass = false;
+           
+           /* Type the Username and Password in the "" and once you do that you can start the script and just type the same stuff, and it should say "Login Success".
+           Dm me on discord if it doesnt somehow work. Have Fun, and feedback is always appreciated! Discord: Shermy#6221 */
+           
+           if (Username == "")
+            {
+                if (Password == "")
+                {
+
+                    Pass = true;
+                    if (Pass == true)
+                    {
+                        Console.WriteLine("Login Success!");
+
+             
+                    }
+                }
+            }
+
+            if (Pass == false)
+            {
+                Console.WriteLine("Incorrect Information");
+            }
+
