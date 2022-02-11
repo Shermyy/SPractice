@@ -1,0 +1,15 @@
+local Part = workspace.part
+
+
+Part.Brickcolor = Brickcolor.Black
+Part.Material = Enum.Material.Neon
+Part.Transparency = .5
+Part.CanColide =  false
+
+wait (10)
+
+-- May contain errors (forgot how to randomize BrickColors but it should automatically suggest it to you when you type it out
+while true do
+Part.BrickColor = BrickColor(random)
+wait(.25)
+end
