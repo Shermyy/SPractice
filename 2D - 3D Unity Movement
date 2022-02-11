@@ -1,0 +1,40 @@
+/*3D (Not Complete)
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GetComponent<Rigidbody>().AddForce(Vector3.up * 5, ForceMode.VelocityChange);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            GetComponent<Rigidbody>().AddForce(Vector3.right, ForceMode.VelocityChange);
+        }
+
+        if(Input.GetKey(KeyCode.A))
+        {
+            GetComponent<Rigidbody>().AddForce(Vector3.left, ForceMode.VelocityChange);
+        }
+    }*/
+    
+    #2D (Completed)
+    
+    
+    /*   if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GetComponent<Rigidbody2D>().AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            GetComponent<Rigidbody2D>().AddForce(Vector2.right * 15, ForceMode2D.Force);
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            GetComponent<Rigidbody2D>().AddForce(Vector2.left * 15, ForceMode2D.Force);
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            GetComponent<Rigidbody2D>().AddForce(Vector2.down * 30,ForceMode2D.Force);
+        }
