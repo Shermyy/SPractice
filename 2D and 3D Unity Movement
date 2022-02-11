@@ -1,4 +1,4 @@
-/*3D (Not Complete)
+/*3D Movement Script (Not Tested but completed)
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -7,17 +7,35 @@
 
         if (Input.GetKey(KeyCode.D))
         {
-            GetComponent<Rigidbody>().AddForce(Vector3.right, ForceMode.VelocityChange);
+            GetComponent<Rigidbody>().AddForce(Vector3.right * 5, ForceMode.VelocityChange);
         }
 
         if(Input.GetKey(KeyCode.A))
         {
-            GetComponent<Rigidbody>().AddForce(Vector3.left, ForceMode.VelocityChange);
+            GetComponent<Rigidbody>().AddForce(Vector3.left * 5, ForceMode.VelocityChange);
         }
-    }*/
+        
+        if (Input.GetKey(KeyCode.W))
+        {
+            GetComponent<Rigidbody>().AddForce(Vector3.foward * 5, ForceMode.VelocityChange);
+        }
+
+        if(Input.GetKey(KeyCode.S))
+        {
+            GetComponent<Rigidbody>().AddForce(Vector3.back * 5, ForceMode.VelocityChange);
+        }
+    */
     
-    #2D (Completed)
     
+    
+    
+    
+    
+    
+    
+    
+    
+    #2D Movement Script (Completed)
     
     /*   if (Input.GetKeyDown(KeyCode.Space))
         {
