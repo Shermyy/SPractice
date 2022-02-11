@@ -1,0 +1,4 @@
+# The main command to change properties of an item is "GetComponent<>"
+# (Not complete, will contain errors)
+
+GetComponent<Material>().Color = Color.black;
