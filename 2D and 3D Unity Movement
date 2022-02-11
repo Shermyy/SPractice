@@ -1,4 +1,4 @@
-/*3D Movement Script (Not Tested but completed)
+/*  3D Movement Script (Not Tested but completed)
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -37,7 +37,7 @@
     
     #2D Movement Script (Completed)
     
-    /*   if (Input.GetKeyDown(KeyCode.Space))
+    /*  if (Input.GetKeyDown(KeyCode.Space))
         {
             GetComponent<Rigidbody2D>().AddForce(Vector2.up * 5, ForceMode2D.Impulse);
         }
@@ -55,4 +55,4 @@
         if (Input.GetKey(KeyCode.S))
         {
             GetComponent<Rigidbody2D>().AddForce(Vector2.down * 30,ForceMode2D.Force);
-        }
+        }   */
