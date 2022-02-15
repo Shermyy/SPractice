@@ -1,5 +1,8 @@
 /*  3D Movement Script (Not Tested but completed)
 
+/* You can change how fast the block accelerates by changing the multiplication integer up or down
+and to change weather to press the button once put "GetKeyDown" otherwise input "GetKey" for continuous actions holding the same button. */
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GetComponent<Rigidbody>().AddForce(Vector3.up * 5, ForceMode.VelocityChange);
@@ -24,6 +27,24 @@
         {
             GetComponent<Rigidbody>().AddForce(Vector3.back * 5, ForceMode.VelocityChange);
         }
+        
+       # Don't have a clue if this work because setting up a reset spawn is different settings for 3D than it is for 2D
+       
+       
+        if(Input.GetKey(KeyCode.R))
+        {
+            GetComponent<Rigidbody>().angularVelocity = Vector3.zero
+            GetComponent<Rigidbody>().Velocity = Vector3.zero
+            GetComponent<Transform>().Position(Vector3.up * 5)
+        
+        
+        }
+        
+        /* Just delete this if you want the block to spin, but this will mostly be used for capsules and FPS games to prevent the camera from moving. 
+        Still have no clue if this works */
+        
+        GetComponet<RigidBody>().angularVelocity = Vector3.zero
+        
     */
     
     
@@ -55,4 +76,21 @@
         if (Input.GetKey(KeyCode.S))
         {
             GetComponent<Rigidbody2D>().AddForce(Vector2.down * 30,ForceMode2D.Force);
-        }   */
+        }
+        
+               
+               # The lines below will reset the current player to (0,6) point of the map.
+               
+               if(Input.GetKey(KeyCode.R))
+        {
+            GetComponent<RigidBody2D>().angularVelocity = Vector2.zero;
+            GetComponent<RigidBody2D>().Velocity = Vector2.zero;
+            GetComponent<Transform>().Position(Vector2.up *5);
+        
+        
+        }
+        
+        GetComponent<RigidBody2D>().angularVelocity = Vector2.zero
+        
+        
+        */
