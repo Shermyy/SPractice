@@ -1,0 +1,20 @@
+# Main Block color change (Not Tested)
+
+
+if (Input.GetKeyDown(KeyCode.H))
+{
+
+GetComponent<TrainRenderer>().StartColor = color.green
+GetComponent<TrailRenderer>().EndColor = color.black
+
+}
+
+
+if (Input.GetKeyDown(KeyCode.G))
+{
+
+GetComponent<TrailRenderer>().StartColor = color.black
+GetComponent<TrailRenderer>().EndColor = color.white
+
+}
+
