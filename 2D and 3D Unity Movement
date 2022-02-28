@@ -75,7 +75,7 @@ and to change weather to press the button once put "GetKeyDown" otherwise input 
 
         if (Input.GetKey(KeyCode.S))
         {
-            GetComponent<Rigidbody2D>().AddForce(Vector2.down * 30,ForceMode2D.Force);
+            GetComponent<Rigidbody2D>().AddForce(Vector2.down * 25,ForceMode2D.Force);
         }
         
                
@@ -93,4 +93,16 @@ and to change weather to press the button once put "GetKeyDown" otherwise input 
         GetComponent<RigidBody2D>().angularVelocity = Vector2.zero
         
         
+        */
+        
+        
+        
+        
+        
+        
+        # This will log the FPS usage while the test is running in the Console
+        
+        /*
+        Debug.Log(1f / Time.deltaTime)
+        Application.targetFrameRate = 300;
         */
