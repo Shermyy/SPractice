@@ -33,9 +33,9 @@ and to change weather to press the button once put "GetKeyDown" otherwise input 
        
         if(Input.GetKey(KeyCode.R))
         {
-            GetComponent<Rigidbody>().angularVelocity = Vector3.zero
-            GetComponent<Rigidbody>().Velocity = Vector3.zero
-            GetComponent<Transform>().Position(Vector3.up * 5)
+            GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            GetComponent<Rigidbody>().Velocity = Vector3.zero;
+            GetComponent<Transform>().Position(Vector3.up * 5);
         
         
         }
@@ -43,7 +43,7 @@ and to change weather to press the button once put "GetKeyDown" otherwise input 
         /* (!Just delete this if you want the block to spin, but this will mostly be used for capsules and FPS games to prevent the camera from moving. 
         Still have no clue if this works.!) */
         
-        GetComponent<RigidBody>().angularVelocity = Vector3.zero
+        GetComponent<RigidBody>().angularVelocity = Vector3.zero;
         
     */
     
@@ -90,7 +90,7 @@ and to change weather to press the button once put "GetKeyDown" otherwise input 
         
         }
         
-        GetComponent<RigidBody2D>().angularVelocity = Vector2.zero
+        GetComponent<RigidBody2D>().angularVelocity = Vector2.zero;
         
         
         */
@@ -100,11 +100,11 @@ and to change weather to press the button once put "GetKeyDown" otherwise input 
         
         
         
-        # (!This will log the FPS usage while the test is running in the Console. You can also change the tFR which changes the FPS in the game.!)
+        # (!This will log the FPS usage while the test is running in the Console.!)
         
         /*
-        Debug.Log(1f / Time.deltaTime)
-        Application.targetFrameRate = 300;
+        Debug.Log(1f / Time.deltaTime);
+        
         */
 
 
