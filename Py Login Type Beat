@@ -1,0 +1,22 @@
+# Uncomplete, haven't tested
+
+info = false
+print('Welcome to Python!')
+print('Username: )
+
+Username = input()
+
+print("Password: ")
+
+Password = input()
+
+if Username == "Shermy":
+   if Password == "Ham":
+      info = true
+      
+
+if info == true:
+   print('Information Correct')
+   
+if info == false:
+   print('Information Incorrect')
