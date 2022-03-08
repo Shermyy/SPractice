@@ -28,7 +28,7 @@ and to change weather to press the button once put "GetKeyDown" otherwise input 
             GetComponent<Rigidbody>().AddForce(Vector3.back * 5, ForceMode.VelocityChange);
         }
         
-       # (!Don't have a clue if this work because setting up a reset spawn is different settings for 3D than it is for 2D.!)
+       // (!Don't have a clue if this work because setting up a reset spawn is different settings for 3D than it is for 2D.!)
        
        
         if(Input.GetKey(KeyCode.R))
@@ -56,7 +56,7 @@ and to change weather to press the button once put "GetKeyDown" otherwise input 
     
     
     
-    #2D Movement Script (Completed)
+    //2D Movement Script (Completed)
     
     /*  if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -79,7 +79,7 @@ and to change weather to press the button once put "GetKeyDown" otherwise input 
         }
         
                
-               # (!The lines below will reset the current player to (0,6) point of the map.!)
+               // (!The lines below will reset the current player to (0,6) point of the map.!)
                
                if(Input.GetKey(KeyCode.R))
         {
@@ -100,7 +100,7 @@ and to change weather to press the button once put "GetKeyDown" otherwise input 
         
         
         
-        # (!This will log the FPS usage while the test is running in the Console.!)
+        // (!This will log the FPS usage while the test is running in the Console.!)
         
         /*
         Debug.Log(1f / Time.deltaTime);
