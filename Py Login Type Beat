@@ -2,7 +2,7 @@
 
 info = false
 print('Welcome to Python!')
-print('Username: )
+print('Username:' )
 
 Username = input()
 
